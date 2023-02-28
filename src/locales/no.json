@@ -13,18 +13,18 @@
     },
     "QW-ACT-R2": {
       "name": "HTML har en lang attribute",
-      "description": "This rule checks that the html element has a non-empty lang or xml:lang attribute.",
+      "description": "Denne regelen kontrollerer at html-elementet har et ikke-tomt lang- eller xml:lang-attributt.",
       "results": {
-        "I1": "No test targets found.",
-        "P1": "The `lang` attribute exists and has a value.",
-        "F1": "The `lang` attribute doesn't exist or is empty ('')."
+        "I1": "Ikke forekomst.",
+        "P1": "`lang`-attributtet finnes og har en verdi.",
+        "F1": "`lang`-attributtet eksisterer ikke eller er tomt ('')."
       }
     },
     "QW-ACT-R3": {
       "name": "HTML lang and xml:lang match",
       "description": "The rule checks that for the html element, there is no mismatch between the primary language in non-empty lang and xml:lang attributes, if both are used.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "The `lang` and `xml:lang` attributes have the same value.",
         "F1": "The `lang` and `xml:lang` attributes don't have the same value."
       }
@@ -33,7 +33,7 @@
       "name": "Meta-refresh no delay",
       "description": "This rule checks that the meta element is not used for delayed redirecting or refreshing.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "The test target refreshes/redirects immediately.",
         "P2": "The test target refreshes/redirects after more than 20 hours.",
         "F1": "The test target refreshes after {seconds} seconds.",
@@ -44,7 +44,7 @@
       "name": "Validity of HTML Lang attribute",
       "description": "This rule checks the lang or xml:lang attribute has a valid language subtag.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "The `lang` attribute has a valid value.",
         "F1": "The `lang` attribute does not have a valid value."
       }
@@ -53,7 +53,7 @@
       "name": "Image button has accessible name",
       "description": "This rule checks that each image button element has an accessible name.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "The test target has an accessible name.",
         "F1": "The test target doesn't have an accessible name."
       }
@@ -62,7 +62,7 @@
       "name": "Orientation of the page is not restricted using CSS transform property",
       "description": "This rule checks that page content is not restricted to either landscape or portrait orientation using CSS transform property.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "A page where CSS transform property has rotateZ transform function conditionally applied on the orientation media feature which does not restrict the element to either portrait or landscape orientation.",
         "F1": "A page where CSS transform property has rotate transform function conditionally applied on the orientation media feature which restricts the element to landscape orientation."
       }
@@ -71,7 +71,7 @@
       "name": "Links with identical accessible names have equivalent purpose",
       "description": "This rule checks that links with identical accessible names resolve to the same resource or equivalent resources.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "The `links` with the same accessible name have equal content.",
         "F1": "The `links` with the same accessible name have different content. Verify is the content is equivalent."
       }
@@ -80,7 +80,7 @@
       "name": "`iframe` elements with identical accessible names have equivalent purpose",
       "description": "This rule checks that `iframe` elements with identical accessible names embed the same resource or equivalent resources.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "The `iframes` with the same accessible name have equal content.",
         "F1": "The `iframes` with the same accessible name have different content."
       }
@@ -89,7 +89,7 @@
       "name": "Button has accessible name",
       "description": "This rule checks that each button element has an accessible name.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "The test target has an accessible name.",
         "F1": "The test target doesn't have an accessible name, or it's empty ('')."
       }
@@ -98,7 +98,7 @@
       "name": "Link has accessible name",
       "description": "This rule checks that each link has an accessible name.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "The test target has an accessible name.",
         "F1": "The test target doesn't have an accessible name, or it's empty ('')."
       }
