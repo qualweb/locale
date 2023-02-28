@@ -1,7 +1,7 @@
 {
   "act-rules": {
     "QW-ACT-R1": {
-      "name": "HTML Side har en tittel",
+      "name": "HTML-side har en tittel",
       "description": "Denne regelen kontrollerer at en HTML-side har en tittel.",
       "results": {
         "I1": "Ikke forekomst.",
@@ -12,7 +12,7 @@
       }
     },
     "QW-ACT-R2": {
-      "name": "HTML har en lang attribute",
+      "name": "HTML har en lang-attributt",
       "description": "Denne regelen kontrollerer at html-elementet har et ikke-tomt lang- eller xml:lang-attributt.",
       "results": {
         "I1": "Ikke forekomst.",
@@ -21,23 +21,23 @@
       }
     },
     "QW-ACT-R3": {
-      "name": "HTML lang and xml:lang match",
-      "description": "The rule checks that for the html element, there is no mismatch between the primary language in non-empty lang and xml:lang attributes, if both are used.",
+      "name": "HTML lang og xml:lang samsvarer",
+      "description": "Regelen sjekker at det for html-elementer er brukt samme verdi for primærspråk i ikke-tomme lang- og xml:lang-attributter, der begge disse attributtene er brukt.",
       "results": {
         "I1": "Ikke forekomst.",
-        "P1": "The `lang` and `xml:lang` attributes have the same value.",
-        "F1": "The `lang` and `xml:lang` attributes don't have the same value."
+        "P1": "Attributtene `lang` og `xml:lang` har samme verdi.",
+        "F1": "Attributtene `lang` og `xml:lang` har ikke samme verdi."
       }
     },
     "QW-ACT-R4": {
-      "name": "Meta-refresh no delay",
-      "description": "This rule checks that the meta element is not used for delayed redirecting or refreshing.",
+      "name": "Meta-refresh er ikke brukt med forsinkelse",
+      "description": "Denne regelen sjekker at meta-elementet ikke brukes til forsinket omdirigering eller oppdatering.",
       "results": {
         "I1": "Ikke forekomst.",
-        "P1": "The test target refreshes/redirects immediately.",
-        "P2": "The test target refreshes/redirects after more than 20 hours.",
-        "F1": "The test target refreshes after {seconds} seconds.",
-        "F2": "The test target redirects after {seconds} seconds."
+        "P1": "Testmålet oppdateres/omdirigeres umiddelbart.",
+        "P2": "Testmålet oppdateres/omdirigeres etter mer enn 20 timer.",
+        "F1": "Testmålet oppdateres etter {seconds} sekunder.",
+        "F2": "Testmålet omdirigeres etter {seconds} sekunder."
       }
     },
     "QW-ACT-R5": {
