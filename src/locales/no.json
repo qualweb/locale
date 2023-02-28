@@ -107,7 +107,7 @@
       "name": "Element with `aria-hidden` has no focusable content",
       "description": "This rule checks that elements with an aria-hidden attribute do not contain focusable elements.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "The test target children are not focusable.",
         "P2": "The test target is not focusable.",
         "F1": "The test target has focusable children.",
@@ -118,7 +118,7 @@
       "name": "meta viewport does not prevent zoom",
       "description": "This rule checks that the meta element retains the user agent ability to zoom.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "The `meta` element with a `name='viewport'` attribute doesn't define the `maximum-scale` and `user-scalable` values.",
         "P2": "The `meta` element with a `name='viewport'` attribute retains the user agent ability to zoom.",
         "F1": "The `meta` element with a `name='viewport'` attribute abolishes the user agent ability to zoom with user-scalable=no or maximum-scale < 2."
@@ -128,7 +128,7 @@
       "name": "audio or video has no audio that plays automatically",
       "description": "This rule checks that auto-play audio does not last for more than 3 seconds, or the audio has a control mechanism to stop or mute it.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "The rule passed because of the rule ",
         "W1": "The rule can't tell because of the rule ",
         "F1": "The rule failed because of the rule "
@@ -138,7 +138,7 @@
       "name": "Form control has accessible name",
       "description": "Form control has accessible name",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "The test target has an accessible name.",
         "F1": "The test target accessible name doesn't exist or it's empty ('')."
       }
@@ -147,7 +147,7 @@
       "name": "Image has accessible name",
       "description": "This rule checks that each image that is not marked as decorative, has an accessible name.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "The test target is decorative.",
         "P2": "The test target has an accessible name.",
         "F1": "The test target doesn't have an accessible name."
@@ -157,7 +157,7 @@
       "name": "`id` attribute value is unique",
       "description": "This rule checks that all id attribute values on a single page are unique.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "The test target has a unique `id` attribute.",
         "F1": "Several elements have the same `id` attribute."
       }
@@ -166,7 +166,7 @@
       "name": "iframe element has accessible name",
       "description": "This rule checks that each iframe element has an accessible name.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "The test target has an accessible name.",
         "F1": "The test target accessible name doesn't exist or it's empty ('')."
       }
@@ -175,7 +175,7 @@
       "name": "role attribute has valid value",
       "description": "This rule checks that each role attribute has a valid value.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "The test target has a valid `role` attribute.",
         "F1": "The test target has an invalid `role` attribute."
       }
@@ -184,7 +184,7 @@
       "name": "svg element with explicit role has accessible name",
       "description": "This rule checks that each SVG image element that is explicitly included in the accessibility tree has an accessible name.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "The test target has an accessible name.",
         "F1": "The test target accessible name doesn't exist or it's empty ('')."
       }
@@ -193,7 +193,7 @@
       "name": "Element within body has valid lang attribute",
       "description": "This rule checks that the lang attribute of an element in the page body has a valid primary language subtag.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "The test target has a valid `lang` attribute.",
         "F1": "The test target has an invalid `lang` attribute."
       }
@@ -202,7 +202,7 @@
       "name": "video element visual content has accessible alternative",
       "description": "This rule checks that video elements with audio have an alternative for the video content as audio or as text.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "The rule passed because of the rule ",
         "W1": "The rule can't tell because of the rule ",
         "F1": "The rule failed because of the rule "
@@ -212,7 +212,7 @@
       "name": "autocomplete attribute has valid value",
       "description": "This rule checks that the HTML autocomplete attribute has a correct value.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "The test target has a valid `autocomplete` attribute.",
         "F1": "The test target `autocomplete` attribute is not valid."
       }
@@ -221,7 +221,7 @@
       "name": "ARIA state or property is permitted",
       "description": "This rule checks that WAI-ARIA states or properties are allowed for the element they are specified on.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "The `{attr}` property is supported or inherited by the `role` {role}.",
         "F1": "The `{attr}` property is neither inherited nor supported by the `role` {role}."
       }
@@ -230,7 +230,7 @@
       "name": "video element auditory content has accessible alternative",
       "description": "This rule checks that video elements have an alternative for information conveyed through audio.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "The rule passed because of the rule ",
         "W1": "The rule can't tell because of the rule ",
         "F1": "The rule failed because of the rule "
@@ -240,7 +240,7 @@
       "name": "aria-* attribute is defined in WAI-ARIA",
       "description": "This rule checks that each aria-* attribute specified is defined in ARIA 1.1.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "All aria-* attributes in this element are defined in ARIA 1.1.",
         "F1": "One or more aria-* attributes are not defined in ARIA 1.1."
       }
@@ -249,7 +249,7 @@
       "name": "Element with role attribute has required states and properties",
       "description": "This rule checks that elements that have an explicit role also specify all required states and properties.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "The test target required attributes are listed.",
         "P2": "The test target `role` doesn't have required state or property",
         "F1": "The test target has unlisted required states or properties."
@@ -259,7 +259,7 @@
       "name": "Audio element content has text alternative",
       "description": "This rule checks if audio only elements have a text alternative available.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "The rule passed because of the rule ",
         "W1": "The rule can't tell because of the rule ",
         "F1": "The rule failed because of the rule "
@@ -269,7 +269,7 @@
       "name": "Visible label is part of accessible name",
       "description": "This rule checks that interactive elements labeled through their content have their visible label as part of their accessible name.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "The complete visible text content of the test target either matches or is contained within its accessible name.",
         "F1": "The test target doesn't have an accessible name.",
         "F2": "The complete visible text content of the test target neither matches or is contained within its accessible name."
@@ -279,7 +279,7 @@
       "name": "Video element visual-only content has accessible alternative",
       "description": "This rule checks that video elements without audio have an alternative available.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "The rule passed because of the rule ",
         "W1": "The rule can't tell because of the rule ",
         "F1": "The rule failed because of the rule "
@@ -289,7 +289,7 @@
       "name": "video element visual content has strict accessible alternative",
       "description": "This rule checks that video elements with audio have audio description.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "The rule passed because of the rule ",
         "W1": "The rule can't tell because of the rule ",
         "F1": "The rule failed because of the rule "
@@ -299,7 +299,7 @@
       "name": "ARIA required context role",
       "description": "This rule checks that an element with an explicit semantic role exists inside its required context.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "The test target parent has the required context `role`.",
         "F1": "The test target parent doesn't have the required context `role`."
       }
@@ -308,7 +308,7 @@
       "name": "ARIA state or property has valid value",
       "description": "This rule checks that each ARIA state or property has a valid value.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "The test target `{attr}` attribute has a valid value.",
         "F1": "The test target `{attr}` attribute has an invalid value."
       }
@@ -317,7 +317,7 @@
       "name": "Heading has accessible name",
       "description": "This rule applies to any HTML element with the semantic role of heading that is included in the accessibility tree.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "The test target has a non-empty accessible name.",
         "F1": "The test target accessible name doesn't exist or it's empty ('')."
       }
@@ -326,7 +326,7 @@
       "name": "Headers attribute specified on a cell refers to cells in the same table element",
       "description": "This rule checks that the headers attribute on a cell refer to other cells in the same table element with a semantic role of columnheader or rowheader.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "All headers attributes refer to a cell with a semantic role of columnheader of rowheader within the same table.",
         "F1": "The headers attribute `{attr}` refers to an ID that does not exist within the same table.",
         "F2": "The headers attribute `{attr}` refers to an element inside the same table which does not have a role of rowheader or columnheader."
@@ -336,7 +336,7 @@
       "name": "Text has minimum contrast",
       "description": "This rule checks that the highest possible contrast of every text character with its background meets the minimal contrast requirement.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "Element has contrast ratio higher than minimum.",
         "P2": "Element doesn't have human language text.",
         "P3": "Element has gradient with contrast ratio higher than minimum.",
@@ -351,7 +351,7 @@
       "name": "ARIA required owned elements",
       "description": "This rule checks that an element with an explicit semantic role has at least one of its required owned elements.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "The test target only owns elements with correct role.",
         "F1": "The test target owns elements that doesn't have the correct role."
       }
@@ -360,7 +360,7 @@
       "name": "All table header cells have assigned data cells",
       "description": "This rule checks that each table header has assigned data cells in a table element.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "The column header element has at least one assigned cell.",
         "F1": "The column header element does not have at least one assigned cell."
       }
@@ -369,7 +369,7 @@
       "name": "Zoomed text node is not clipped with CSS overflow",
       "description": "This rule checks that text nodes are not unintentionally clipped by overflow, when a page is zoomed to 200% on 1280 by 1024 viewport.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "W1": "Check if each ancestor or the text node is not clipped by overflow."
       }
     },
@@ -377,7 +377,7 @@
       "name": "Error message describes invalid form field value",
       "description": "This rule checks that text error messages provided when the user completes a form field with invalid values or using an invalid format, identify the cause of the error or how to fix the error.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "W1": "Check that text error messages provided, identify the cause of the error or how to fix the error."
       }
     },
@@ -385,7 +385,7 @@
       "name": "Object element has non-empty accessible name",
       "description": "This rule checks that each `object` element has a non-empty accessible name.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "The test target has a non-empty accessible name.",
         "F1": "The test target accessible name doesn't exist or it's empty ('')."
       }
@@ -394,7 +394,7 @@
       "name": "Scrollable element is keyboard accessible",
       "description": "This rule checks that scrollable elements can be scrolled by keyboard",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "This scrollable section element is included in sequential focus navigation.",
         "F1": "This vertically/horizontally scrollable section element is not included in sequential focus navigation, nor does it have any descendants that are."
       }
@@ -403,7 +403,7 @@
       "name": "Links with identical accessible names and context serve equivalent purpose",
       "description": "This rule checks that links with identical accessible names and context resolve to the same or equivalent resources.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "The `links` with the same accessible name have equal content.",
         "W1": "The `links` with the same accessible name have different content. Verify is the content is equivalent."
       }
@@ -412,7 +412,7 @@
       "name": "Element marked as decorative is not exposed",
       "description": "This rule checks that elements marked as decorative either are not included in the accessibility tree, or have a presentational role.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "The test target is not in the accessibility tree.",
         "F1": "The test target is in the accessibility tree."
       }
@@ -421,7 +421,7 @@
       "name": "Audio or video that plays automatically has no audio that lasts more than 3 seconds",
       "description": "audio or video that plays automatically does not output audio for more than 3 seconds.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "The test target plays for 3 seconds or less.",
         "W1": "Can't collect data from the test target element.",
         "W2": "Check if test target has a visible control mechanism."
@@ -431,7 +431,7 @@
       "name": "audio or video that plays automatically has a control mechanism",
       "description": "audio or video that plays automatically must have a control mechanism.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "The test target has a visible control mechanism.",
         "W1": "Can't collect data from the test target element.",
         "W2": "Check if test target has a visible control mechanism."
@@ -441,7 +441,7 @@
       "name": "video element visual-only content is media alternative for text",
       "description": "This rule checks non-streaming silent video is a media alternative for text on the page.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "W1": "Can't collect data from the test target.",
         "W2": "Check that the content in the video matches the information in the text."
       }
@@ -450,7 +450,7 @@
       "name": "video element visual-only content has description track",
       "description": "This rule checks that description tracks that come with non-streaming video elements, without audio, are descriptive.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "W1": "Can't collect data from the test target.",
         "W2": "Check if visual content has an accessible alternative."
       }
@@ -459,7 +459,7 @@
       "name": "video element visual-only content has transcript",
       "description": "Non-streaming video elements without audio must have all visual information available in a transcript.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "W1": "Can't collect data from the test target.",
         "W2": "Check if visual content has an accessible alternative."
       }
@@ -468,7 +468,7 @@
       "name": "video element visual-only content has audio track alternative",
       "description": "Non-streaming video elements without audio must have an audio alternative.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "W1": "Can't collect data from the test target.",
         "W2": "Check if visual content has an accessible alternative."
       }
@@ -477,7 +477,7 @@
       "name": "video element visual content has audio description",
       "description": "This rule checks that non-streaming video elements have all visual information also contained in the audio.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "W1": "Can't collect data from the test target.",
         "W2": "The test target has a sound track but we can't verify the volume. Check if the test target has audio and if it does check if visual content has an accessible alternative."
       }
@@ -486,7 +486,7 @@
       "name": "video element content is media alternative for text",
       "description": "This rule checks non-streaming video is a media alternative for text on the page.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "W1": "Can't collect data from the test target.",
         "W2": "Check that the content in the video matches the information in the text."
       }
@@ -495,7 +495,7 @@
       "name": "video element visual content has description track",
       "description": "This rule checks that description tracks that come with non-streaming video elements are descriptive.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "W1": "Can't collect data from the test target.",
         "W2": "The test target has a sound track but we can't verify the volume. Check if the test target has audio and if it does check if visual content has an accessible alternative."
       }
@@ -504,7 +504,7 @@
       "name": "audio element content has transcript",
       "description": "Non-streaming audio elements must have a text alternative for all included auditory information.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "W1": "Check if the test target audio has text-alternative."
       }
     },
@@ -512,7 +512,7 @@
       "name": "audio element content is media alternative for text",
       "description": "This rule checks audio is a media alternative for text on the page.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "W1": "Check that the content in the audio matches the information in the text."
       }
     },
@@ -520,7 +520,7 @@
       "name": "video element auditory content has captions",
       "description": "This rule checks that captions are available for audio information in non-streaming video elements.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "W1": "Can't collect data from the test target.",
         "W2": "The test target has a sound track but we can't verify the volume. Check if the test target has audio and if it does check if audio content has matching captions."
       }
@@ -529,7 +529,7 @@
       "name": "Audio and visuals of video element have transcript",
       "description": "This rule checks that non-streaming video elements have all audio and visual information available in a transcript.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "W1": "Can't collect data from the test target.",
         "W2": "The test target has a sound track but we can't verify the volume. Check if the test target has audio and a transcript. If it does check if the transcript contains all the visual and audio information of the video."
       }
@@ -538,7 +538,7 @@
       "name": "Element in sequential focus order has visible focus",
       "description": "This rule checks that each element in sequential focus order has some visible focus indication.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "W1": "Check if the element has some visible focus indication"
       }
     },
@@ -546,7 +546,7 @@
       "name": "Document has a landmark with non-repeated content",
       "description": "This rule checks that each page has an element with a landmark semantic role starting with non-repeated content",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "The page doesn't have repeated content.",
         "W1": "Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true: - the element has semantic role inheriting from landmark; and - the first perceivable content (in tree order in the flat tree) which is an inclusive descendant of the element is non-repeated content after repeated content; and - the element is included in the accessibility tree."
       }
@@ -555,7 +555,7 @@
       "name": "Document has heading for non-repeated content",
       "description": "This rule checks that the non-repeated content contains a heading",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "The page doesn't have repeated content.",
         "W1": "Check either there is no non-repeated content after repeated content or there exists an element for which all the following are true: - the element is non-repeated content after repeated content; and - the element has a semantic role of heading; and - the element is visible; and - the element is included in the accessibility tree."
       }
@@ -564,7 +564,7 @@
       "name": "Element with presentational children has no focusable content",
       "description": "This rule checks that elements with a role that makes its children presentational do not contain focusable elements.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "The element doesn't have descendants in the flat tree that are part of sequential focus navigation.",
         "F1": "The element has descendants in the flat tree that are part of sequential focus navigation."
       }
@@ -573,7 +573,7 @@
       "name": "Menuitem has non-empty accessible name",
       "description": "This rule checks that each element with a menuitem role has a non-empty accessible name.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "The test target has a non-empty accessible name.",
         "F1": "The test target accessible name doesn't exist or it's empty ('')."
       }
@@ -582,7 +582,7 @@
       "name": "Letter spacing in style attributes is not !important",
       "description": "This rule checks that the style attribute is not used to prevent adjusting letter-spacing by using !important, except if it's at least 0.12 times the font size.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "The letter-spacing property is not !important.",
         "P2": "The letter-spacing is at least 0.12 times the font-size.",
         "P3": "The cascaded letter-spacing is not the declared value.",
@@ -593,7 +593,7 @@
       "name": "Line height in style attributes is not !important",
       "description": "This rule checks that the style attribute is not used to prevent adjusting line-height by using !important, except if it's at least 1.5 times the font size.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "The line-height property is not !important.",
         "P2": "The line-height is at least 1.5 times the font-size.",
         "P3": "The cascaded line-height is not the declared value.",
@@ -604,7 +604,7 @@
       "name": "Word spacing in style attributes is not !important",
       "description": "This rule checks that the style attribute is not used to prevent adjusting word-spacing by using !important, except if it's at least 0.16 times the font size.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "The word-spacing property is not !important.",
         "P2": "The word-spacing is at least 0.16 times the font-size.",
         "P3": "The cascaded word-spacing is not the declared value.",
@@ -615,7 +615,7 @@
       "name": "iframe with negative tabindex has no interactive elements",
       "description": "This rule checks that `iframe` elements with a negative `tabindex` attribute value contain no interactive elements.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "The nested browsing context does not include elements that are visible and part of the sequential focus navigation.",
         "F1": "The nested browsing context includes elements that are visible and part of the sequential focus navigation."
       }
@@ -624,7 +624,7 @@
       "name": "`meta` element has no refresh delay (no exception)",
       "description": "This rule checks that the `meta` element is not used for delayed redirecting or refreshing.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "The test target refreshes/redirects immediately.",
         "F1": "The test target refreshes after {seconds} seconds.",
         "F2": "The test target redirects after {seconds} seconds."
@@ -634,7 +634,7 @@
       "name": "First focusable element is link to non-repeated content",
       "description": "This rule checks that the first focusable element is a link to non-repeated content in the page",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "W1": "Check that the first focusable element has an accessible name that communicates that it skips content",
         "W2": "Check that the first focusable element skips to the main content and its accessible name communicates so.",
         "F1": "The first focusable element is not keyboard actionable.",
@@ -648,7 +648,7 @@
       "name": "Block of repeated content is collapsible",
       "description": "This rule checks that repeated blocks of content are collapsible.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "The page doesn't have repeated content.",
         "W1": "For each block of repeated content in each test target, which is before (in the flat tree) at least one node of non-repeated content after repeated content, check that all the following are true: - there exists an instrument to make all nodes in this block not visible; and - there exists an instrument to remove all nodes in this block from the accessibility tree."
       }
@@ -657,7 +657,7 @@
       "name": "Document has an instrument to move focus to non-repeated content",
       "description": "This rule checks that there is an instrument to move focus to non-repeated content in the page.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "The page doesn't have repeated content.",
         "W1": "The page has one or more instrument(s) to move focus. Check if any of these instrument(s) is being used before a block of repeated content, and the focus is moved to just before a block of non-repeated content.",
         "W2": "Check if the page has any instrument(s) to move focus. Check if any of these instrument(s) is being used before a block of repeated content, and the focus is moved to just before a block of non-repeated content."
@@ -667,7 +667,7 @@
       "name": "Bypass Blocks of Repeated Content",
       "description": "This rule checks that each page has a mechanism to bypass repeated blocks of content.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "The rule passed because of the rule ",
         "W1": "The rule can't tell because of the rule ",
         "F1": "The rule failed because of the rule "
@@ -677,7 +677,7 @@
       "name": "Text has enhanced contrast",
       "description": "This rule checks that the highest possible contrast of every text character with its background meets the enhanced contrast requirement.",
       "results": {
-        "I1": "No test targets found.",
+        "I1": "Ikke forekomst.",
         "P1": "Element has contrast ratio higher than minimum.",
         "P2": "Element doesn't have human language text.",
         "P3": "Element has gradient with contrast ratio higher than minimum.",
